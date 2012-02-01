@@ -157,7 +157,7 @@ Net::Hadoop::DFSAdmin::ReportParser - Parser module for 'hadoop dfsadmin -report
 =head1 SYNOPSIS
 
   use Net::Hadoop::DFSAdmin::ReportParser;
-  open($fh, '|-', 'hadoop', 'dfsadmin', '-report')
+  open($fh, '-|', 'hadoop', 'dfsadmin', '-report')
       or die "failed to execute 'hadoop dfsadmin -report'";
   my @lines = <$fh>;
   close($fh);

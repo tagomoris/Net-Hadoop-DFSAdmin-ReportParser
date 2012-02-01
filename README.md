@@ -10,7 +10,7 @@ Parser module for output of 'hadoop dfsadmin -report'.
     use warnings;
     use Net::Hadoop::DFSAdmin::ReportParser;
     
-    open($fh, '|-', 'hadoop', 'dfsadmin', '-report')
+    open($fh, '-|', 'hadoop', 'dfsadmin', '-report')
         or die "failed to execute 'hadoop dfsadmin -report'";
     my @lines = <$fh>;
     close($fh);
