@@ -3,7 +3,7 @@ package Net::Hadoop::DFSAdmin::ReportParser;
 use strict;
 use warnings;
 
-our $VERSION = "0.1";
+our $VERSION = "0.2";
 
 sub parse {
     my ($this, @lines) = @_;
