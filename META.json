@@ -65,7 +65,7 @@
          "web" : "https://github.com/tagomoris/Net-Hadoop-DFSAdmin-ReportParser"
       }
    },
-   "version" : "0.2",
+   "version" : "0.3",
    "x_contributors" : [
       "TAGOMORI Satoshi <tagomoris@gmail.com>"
    ]
